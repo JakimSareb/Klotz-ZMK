@@ -416,6 +416,15 @@
             tapping-term-ms = <200>;
             label = "HMR";
         };
+
+        mouse_scroll: mouse_scroll {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+
+            label = "MOUSE_SCROLL";
+            tap-ms = <20>;
+        };
     };
 
     keymap {
@@ -438,7 +447,7 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp PAGE_DOWN PG_UP>,
+                <&mouse_scroll>,
                 <&inc_dec_kp C_VOL_UP C_VOLUME_DOWN>;
         };
 
