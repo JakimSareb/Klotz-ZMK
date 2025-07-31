@@ -440,7 +440,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp PG_UP PG_DN>,
-                <&inc_dec_kp UP_ARROW DOWN_ARROW>;
+                <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
         };
 
         nav_layer {
