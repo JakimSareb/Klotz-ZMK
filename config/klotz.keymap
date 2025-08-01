@@ -447,9 +447,7 @@
                                                 &lt 1 ESCAPE       &lt 5 SPACE  &lt 3 ENTER  &lt 2 BACKSPACE
             >;
 
-            sensor-bindings =
-                <&inc_dec_kp PG_UP PG_DN>,
-                <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+            sensor-bindings = <&msc_scroll>, <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
         nav_layer {
@@ -498,7 +496,9 @@
                                                        &kp RIGHT_PARENTHESIS                    &kp UNDER        &kp SPACE  &skq RSHFT
             >;
 
-            sensor-bindings = <&msc_scroll>, <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings =
+                <&encoder_alt_tab>,
+                <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         fn_layer {
