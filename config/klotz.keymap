@@ -410,7 +410,7 @@
             // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
             bindings = <
-&kp NUBS          &kp RIGHT_ALT  &none          &kp C_MUTE      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NUMBER_7  &kp NUMBER_8  &kp N9        &kp EQUAL
+&kp NUBS          &kp RIGHT_ALT  &none          &kp GLOBE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NUMBER_7  &kp NUMBER_8  &kp N9        &kp EQUAL
 &kp LEFT_CONTROL  &kp LEFT_ALT   &kp LEFT_GUI   &kp LEFT_SHIFT  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LEFT_BRACKET
 &kp GRAVE         &none          &kp BACKSLASH  &none           &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RIGHT_BRACKET
                                                 &trans          &trans                &trans                 &trans
