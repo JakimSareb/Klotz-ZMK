@@ -384,7 +384,7 @@
 
             bindings = <
 &kp Q                &kp W            &kp E            &kp R              &kp T                    &kp Y        &kp U               &kp I            &kp O            &kp P
-&hml LEFT_CONTROL A  &hml LEFT_ALT S  &hml LEFT_GUI D  &hml LEFT_SHIFT F  &kp G                    &kp H        &hmr RIGHT_SHIFT J  &hmr LEFT_GUI K  &hmr LEFT_ALT L  &hmr APOSTROPHE SEMICOLON
+&hml LEFT_CONTROL A  &hml LEFT_ALT S  &hml LEFT_GUI D  &hml LEFT_SHIFT F  &kp G                    &kp H        &hmr RIGHT_SHIFT J  &hmr LEFT_GUI K  &hmr LEFT_ALT L  &hmr SEMICOLON APOSTROPHE
 &lt 5 Z              &kp X            &kp C            &kp V              &lt 4 B                  &kp N        &kp M               &kp COMMA        &kp PERIOD       &mt MINUS SLASH
                                                        &lt 2 SPACE        &hml LEFT_CONTROL ENTER  &lt 3 ENTER  &lt 1 SPACE
             >;
